@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Procurement Assistant</title>
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+
+    <div id ="header" class="col-md-12">
+    <img src="https://ninjateam.org/wp-content/uploads/2016/12/chat_bot-01-1210x423.jpg" style="max-width:90%; margin-top:4%"/>
+    <h3>Hello, I can assist you with your work procedure</h3><br>
+    <p style="font-size: 1.3em; border-bottom:solid grey 1px;">Please Select from the options below to request a procedure</p>    
+   </div>
+    </div>
+    </div>
+    <form class="form-group"> 
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+   
+    <label>What is your role?
+    <select name = "dropdown" id="role"> 
+        <option value = "Prescriber" selected>Prescriber</option>
+        <option value = "Purchasing-Manager">Purchasing Manager</option>
+        <option value = "MD">MD</option>
+        <option value = "Production-Services-Manager">Production Services Manager</option>
+        <option value = "Plants-and-Warehouses-Manager"> Plants and Warehouses Manager</option>
+        <option value = "Specialities-Project-Manager"> Specialities Project Manager</option>
+        <option value = "GM"> GM</option>
+        <option value = "ED"> ED</option>
+        <option value = "TC"> TC</option>
+        <option value = "Requesting-Department">Requesting Department</option>
+        <option value = "Plants-and-Warehouses-Manager"> Plants and Warehouses Manager</option>
+        <option value="store-keeper">Store Keeper</option>
+        <option value="LAM">LAM</option>
+        <option value="company-secretary">company secretary</option>
+        <option value="HOD">HOD</option>
+        <option value="MARD">MARD</option>
+     </select></label>
+    </div> 
+    <div class="col-md-6">
+     <label>What procedure do you need?
+    <select name = "dropdown" id="resource"> 
+        <option value = "General-Supplies" selected>General Supplies</option>
+        <option value = "Technical-Supplies">Technical Supplies</option>
+        <option value = "Insurances">Insurances</option>
+        <option value = "Investments">Investments– Fixed And Movable Assets </option>
+        <option value = "Intellectual"> Intellectual Services</option>
+        <option value = "receipts">Receipts Of Materials, Equipment And Goods Into Store</option>
+        <option value = "Delegated-Purchasing"> Delegated Purchasing</option>
+        <option value = "Scrapping">Scrapping of Obsolete Items In Head Office And Lagos Sales Areas </option>
+     </select></label>
+    </div>
+    
+
+            <div class="col-md-12"  id="listdiv">
+            <div id="display">
+                
+            </div> 
+            <div class="col-md-12">
+                    <button id="procedure" class="btn btn-sm btn-primary">Get procedure</button>
+            </div>
+                    
+           
+            </div>
+
+    </div>
+    
+</div>
+</div>
+     
+</form>
+  
+<script src="index.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

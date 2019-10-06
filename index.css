@@ -1,0 +1,25 @@
+body{
+    background-color: #262727;
+    color:white;
+}
+
+#header h3{
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+   text-align: center;
+   max-width:100%;
+
+}
+#procedure{
+    margin-top:5%;
+    text-align: center;
+}
+#listdiv{
+    margin-top: 3%;
+}
+#display{
+    background-color:#447bf1;
+    padding: 5%;
+    font-size: 1.3em;
+}
