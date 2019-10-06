@@ -49,8 +49,6 @@ resource.innerHTML=`
 }else if(role.value=="LAM"){
     resource.innerHTML=`<option value = "Technical-Supplies">Technical Supplies</option>
     <option value = "Insurances">Insurances</option>`
-}else if(role.value=="HOD"){
-    resource.innerHTML=`<option value = "Technical-Supplies">Technical Supplies</option>`
 }else if(role.value=="MARD"){
     resource.innerHTML=` <option value = "Investments">Investments– Fixed And Movable Assets </option>`
 }else if(role.value=="company-secretary"){
