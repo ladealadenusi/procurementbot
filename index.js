@@ -55,10 +55,6 @@ resource.innerHTML=`
     resource.innerHTML=` <option value = "Investments">Investments– Fixed And Movable Assets </option>`
 }else if(role.value=="company-secretary"){
     resource.innerHTML=`<option value = "Technical-Supplies">Technical Supplies</option>`
-}else if(role.value=="Requesting-Department"){
-    resource.innerHTML= `<option value = "Investments">Investments– Fixed And Movable Assets </option>
-    <option value = "Intellectual"> Intellectual Services</option> 
-     <option value = "Delegated-Purchasing"> Delegated Purchasing</option>`
 }
 }
 function getProcedure(e){
